@@ -1,0 +1,77 @@
+:root {
+    --primary-color: rgb(255, 255, 104);
+    --secondary-color: rgb(11, 10, 78);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+body{
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0.5em 0;
+    line-height: 1;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+header,
+footer {
+    padding: 1em;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+
+main {
+    margin: 3em 0;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 1.5em;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.btn {
+    width: 100%;
+    max-width: 120px;
+    padding: 0.5em;
+    cursor: pointer;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    outline: none;
+}
+
