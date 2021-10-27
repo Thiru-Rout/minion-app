@@ -13,11 +13,6 @@ function errorHandler(error) {
     alert("something wrong with server! try again after some time")
 }
 
-function clickHandler(error){
-    console.log("error occured", error);
-    alert("something wrong with server! try again after some time")
-}
-
 function clickHandler() {
     let inputText = txtInput.value; // taking input
 
